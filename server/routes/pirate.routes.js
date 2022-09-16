@@ -1,5 +1,5 @@
 // get the 'class methods' which we'll apply accroding to each end point
-const PirateController = require('../controllers/Pirate.controller');
+const PirateController = require('../controllers/pirate.controller');
 
 module.exports = function(app){
     app.post('/api/new', PirateController.createPirate);
